@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(236, 239, 255);
+}
+
+body{
+    border: 5px solid rgb(226, 42, 42);
+    background-color: rgba(167, 36, 36, 0.168);
+    margin: 30px auto;
+    width: 800px;
+    padding: 50px;
+}
+
+h1,h2,p,a,table,ul,ol,form{
+    color:rgb(25, 1, 1);
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.line{
+    border: 2px solid rgb(154, 198, 255);
+    margin-top: 50px;
+}
+
+a{
+    line-height: 30px;
+}
+
+table{
+    border: 2px solid rgb(255, 255, 154);
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+caption{
+    padding: 5px;
+}
+td,th{
+    border: 1px solid rgb(255, 154, 154);
+    padding: 5px 15px;
+}
+th{
+    background-color: rgb(255, 241, 209);
+}
