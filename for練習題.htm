@@ -1,0 +1,21 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<script>
+			let n = prompt("輸入層級");
+		for (let i = 1; i <= n; i++) {
+			//i小於n的時候跑回圈，就會跑n次
+			for (let j = 1; j <= i; j++) {
+				//劃出星星
+				document.write("★");
+			}
+			document.write("<br>"); //畫完一層星星就斷行
+		}
+	</script>
+</body>
+
+</html>
